@@ -10,3 +10,15 @@ Sample input: an awesome web developer
 
 Output: I am going to be an awesome web developer.
 */
+
+// Write your program here
+
+// Declaring necessary variable
+var string1 = "I am going to be"
+var string2 = "an awesome web developer."
+
+// combining two string1 and string2
+var combinedString = string1 + " " + string2
+
+// output will be shown
+console.log(combinedString);
