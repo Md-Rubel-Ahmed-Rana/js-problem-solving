@@ -15,12 +15,16 @@ The second line is the cost of 1kg of oranges and 1kg of apples.
 
 // Write your program here.
 
+// Declaring initial variable
 var totalAmount = 1000;
 var oranges = 300;
 var apples = 400;
 
+// sum total cost
 var totalCost = oranges + apples;
 
+// getting remaing amount
 var remainingAmount = totalAmount - totalCost;
 
-console.log(remainingAmount);
+
+// console.log(remainingAmount);
