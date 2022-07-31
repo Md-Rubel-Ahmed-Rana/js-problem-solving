@@ -12,3 +12,12 @@ output: 4
 */
 
 // Write  your program here.
+
+// Declaring necessary variable
+var givenNumber = 119;
+
+// getting remainder
+var remainder = 119 % 5;
+
+// output will be shown
+console.log(remainder);
