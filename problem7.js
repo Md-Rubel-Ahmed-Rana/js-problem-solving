@@ -37,3 +37,14 @@ var land = 8;
 var triangleArea = (land * height) / 2;
 
 console.log(`Triangle Area is: ${triangleArea}`);
+
+// ###### Solutions-2 alternative ########
+ var side1 = 9;
+ var side2 = 8;
+ var side3 = 9;
+
+ if (side1 == side2 || side1 == side3 || side2 == side3) {
+   console.log("This is an Isosceles Triangle");
+ } else{
+   console.log("This is not an Isosceles Triangle");
+ }

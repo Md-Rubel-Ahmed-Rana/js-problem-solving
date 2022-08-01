@@ -14,8 +14,10 @@ Q-2: Remove "Orange" and add "Watermelon";
 // Initializing  an Array
 var fruits = ["Apple", "Banana", "Orange"];
 
+// finding the index of Banana
+var bananaIndex = fruits.indexOf("Banana");
 // Replace the Banana with the Mango
-fruits[1]= "Mango";
+fruits[bananaIndex]= "Mango";
 
 // Removing "Orange"
 fruits.pop();
