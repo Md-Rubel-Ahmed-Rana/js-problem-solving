@@ -6,8 +6,6 @@
 
 // ###### Solution-1 ########
 // I have solved this problem using switch statment
-
-/*
 var signal = "";
 switch (signal) {
     case "red":
@@ -21,7 +19,7 @@ switch (signal) {
         break;
 
     default:
-        console.log("Do another activities");
+        console.log("There is no signal, Do another activities.");
         break;
 }
 
@@ -37,12 +35,9 @@ function traffic(signal) {
     } else if(signal === "green"){
         return "You should cross the road immidiatly"
     } else{
-        return "There is no signal, Do another activities"
+        return "There is no signal, Do another activities."
     }
 }
 
 const mySignal = traffic();
-
 console.log(mySignal);
-
-*/
