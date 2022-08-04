@@ -7,7 +7,7 @@
 
 // ###### Solution ########
 
-/*
+
 function make_avg(bangla, math, english) {
     const total = bangla + math + english;
     const average = total / 3;
@@ -18,5 +18,3 @@ function make_avg(bangla, math, english) {
 const myResult = make_avg(65, 67, 80);
 
 console.log(myResult.toFixed(2));
-
-*/
