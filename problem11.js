@@ -8,7 +8,7 @@
 
 // Write your program here.
 
-// ###### Solution ########/*
+// ###### Solution-1 ########
 
 function odd_even(number) {
    if (number % 2 == 0) {
@@ -18,5 +18,21 @@ function odd_even(number) {
    }
 };
 
-const myResult = odd_even(47);
+const myResult = odd_even(44);
 console.log(myResult);
+
+
+
+// ###### Solution-2 ########
+
+// This is function will return True for Even and  False for Odd.
+function oddEeven(number2) {
+   if (number2 % 2 == 0) {
+      return true
+   } else{
+      return false
+   }
+};
+
+const myResult2 = oddEeven(41);
+console.log(myResult2);
