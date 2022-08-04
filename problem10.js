@@ -25,4 +25,4 @@ function make_avg(sum, lenght) {
 
 const myResult = make_avg(sum,lenght);
 
-console.log(myResult);
+console.log(myResult)
