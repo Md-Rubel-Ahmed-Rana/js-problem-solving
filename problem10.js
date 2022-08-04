@@ -9,7 +9,7 @@
 // ###### Solution ########
 
 // Initial Variables
-/*
+
 let myArr = [79, 69, 70, 90, 99, 80];
 let sum = 0;
 let lenght = myArr.length;
@@ -26,4 +26,3 @@ function make_avg(sum, lenght) {
 const myResult = make_avg(sum,lenght);
 
 console.log(myResult);
-*/
