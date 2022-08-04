@@ -8,8 +8,7 @@
 
 // Write your program here.
 
-// ###### Solution ########
-/*
+// ###### Solution ########/*
 
 function odd_even(number) {
    if (number % 2 == 0) {
@@ -21,4 +20,3 @@ function odd_even(number) {
 
 const myResult = odd_even(47);
 console.log(myResult);
-*/
