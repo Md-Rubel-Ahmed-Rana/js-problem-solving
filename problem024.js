@@ -17,7 +17,7 @@
 // Write your program here.
 
 // #### Solution ####
-const getPercentage = (totalMarks, gotMarks) => {
+const getResult = (totalMarks, gotMarks) => {
     const getPercentage = (gotMarks * 100) / totalMarks;
     const getInteger = parseInt(getPercentage);
     if (getPercentage >= 80) {
@@ -39,10 +39,10 @@ const getPercentage = (totalMarks, gotMarks) => {
     return getPercentage;
 }
 
-getPercentage(600, 550);
-getPercentage(600, 450);
-getPercentage(600, 400);
-getPercentage(600, 350);
-getPercentage(600, 250);
-getPercentage(600, 200);
-getPercentage(600, 195);
+getResult(600, 550);
+getResult(600, 450);
+getResult(600, 400);
+getResult(600, 350);
+getResult(600, 250);
+getResult(600, 200);
+getResult(600, 195);
