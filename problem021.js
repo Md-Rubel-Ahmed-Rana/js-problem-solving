@@ -4,7 +4,7 @@
 
 // Write yor program here.
 
-// #### Solution-1 ####
+// #### Solution ####
 
 function factorials(number) {
     let sum = 1;
