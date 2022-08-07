@@ -10,7 +10,7 @@
 
 // Write your program here.
 
-// #### Solution ####
+// #### Solution-1 ####
 
 // Defining necessary variables
 
@@ -36,7 +36,6 @@ uniqueNumbers.sort((a,b) => {
 console.log(uniqueNumbers);
 
 
-
 // finding the largest number
 let largeNumber = 0;
 for (let i = 0; i < uniqueNumbers.length; i++) {
@@ -46,4 +45,28 @@ for (let i = 0; i < uniqueNumbers.length; i++) {
 }
 
 console.log(largeNumber);
+
+
+
+// #### Solution-2 ####
+
+function removeDuplicates(names) {
+    const unique = [];
+
+    for (let i = 0; i < names.length; i++) {
+        const name = names[i];
+       
+        if (unique.includes(name) === false) {
+            unique.push(name)
+        }
+    }
+
+    return unique;
+}
+
+const friendsName = ["bodrul", "amin", "anamul", "kuddus", "najim", "bodrul", "amin", "bodrul", "amin"];
+
+const uniqueNames = removeDuplicates(friendsName);
+console.log(uniqueNames);
+
 
