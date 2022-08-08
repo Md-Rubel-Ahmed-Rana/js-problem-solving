@@ -10,6 +10,7 @@
         * It will take 200 Pages per copy book.
     6. Parameter-3 for: third  book quantity.
         * It will take 300 Pages per copy book.
+    7. This function will return Total amount of pages.
 */
 
 function paperRequirment(book1, book2, book3) {
