@@ -22,6 +22,4 @@ const getEvenLength = (friends) => {
 
 const friendsName = ["Kuddus", "Bodrul", "Bodruzaman", "Rubel", "Jhankar", "Babula"];
 const result = getEvenLength(friendsName);
-
 console.log(result);
-
